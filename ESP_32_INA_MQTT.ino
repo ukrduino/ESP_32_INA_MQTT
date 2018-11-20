@@ -25,23 +25,22 @@ int sensorRequestPeriod = 10; // seconds
 const char* mqtt_server;
 
 
-
 INA226 ina;
 float busVoltage = 0.0;
 float busPower = 0.0;
 float shuntVoltage = 0.0;
 float shuntCurrent = 0.0;
 
-const int RELAY_PIN_BATTERY_1 = 12;
-const int RELAY_PIN_BATTERY_2 = 13;
-const int RELAY_PIN_CHARGER = 14;
+const int RELAY_PIN_BATTERY_1 = 13;
+const int RELAY_PIN_BATTERY_2 = 14;
+const int RELAY_PIN_CHARGER = 12;
 
-const int SETTINGS_SWITCH_1_PIN = 12;
-const int SETTINGS_SWITCH_2_PIN = 13;
-const int SETTINGS_SWITCH_3_PIN = 14;
-const int SETTINGS_SWITCH_4_PIN = 14;
+const int SETTINGS_SWITCH_1_PIN = 16;
+const int SETTINGS_SWITCH_2_PIN = 17;
+const int SETTINGS_SWITCH_3_PIN = 18;
+const int SETTINGS_SWITCH_4_PIN = 19;
 
-const int ERROR_LED_PIN = 14;
+const int ERROR_LED_PIN = 26;
 
 
 //-----------------HTTP_OTA------------------------
